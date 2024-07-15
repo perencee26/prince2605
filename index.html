@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usability hub</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html,body{
+            width: 100%;
+            height: 100%;
+            background-color: aquamarine;
+        }
+
+        .main{
+            width: 100%;
+            height: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .header{
+            height: 15%;
+            width: 100%;
+            background-color: white;
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #headi{
+            font-size: x-large;
+            transform: translateX(-120px);
+        }
+
+        .texts{
+            display: flex;
+            gap: 30px;
+            transform: translateX(90px);
+        }
+
+        #text1:hover{
+            color: rgb(61, 61, 214);
+        }
+
+        #text2:hover{
+            color: rgb(61, 61, 214);
+        }
+
+        #text3:hover{
+            color: rgb(61, 61, 214);
+        }
+
+        #text4:hover{
+            color: rgb(61, 61, 214);
+        }
+
+        .btns{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        #btn1{
+            border: 1px solid rgb(61, 61, 214);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        #btn1:hover{
+            color:rgb(61, 61, 214) ;
+        }
+
+        #btn2:hover{
+            background-color: white;
+            color:rgb(61, 61, 214) ;
+        }
+
+        #btn2{
+            border: 1px solid black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgb(61, 61, 214);
+            color: white;
+        }
+
+        .fake{
+            height: 15%;
+            width: 100%;
+            border-color: white;
+        }
+
+        .page1{
+            height: 85%;
+            width: 100%;
+            background-color: white;
+        }
+
+        .section{
+            height: 85%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #left{
+            height: 70%;
+            width: 27%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+
+        #left h1{
+            font-size: 35px;
+            color: rgb(7, 7, 87);
+        }
+
+        #left p{
+            font-weight: lighter;
+            color: grey;
+            font-size: 20px;
+        }
+
+        #leftbtn button{
+            background-color: rgb(61, 61, 214);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: medium;
+        }
+
+        #right{
+            height: 90%;
+            width: 50%;
+            background-color: white;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        #right img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        #btm1{
+            height: 10%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding-top: 27px;
+            font-size: larger;
+            color: rgb(7, 7, 87);
+        }
+
+        .page2{
+            height: 85%;
+            width: 100%;
+            background-color: wheat;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <div id="logo">
+                <img width="60px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT29vtuPwbXyTqBZO5rJcu60H_iUWdGxeHhBQ&s" alt="">
+            </div>
+            <div id="headi">UsabilityHub</div>
+            <div class="texts">
+                <div id="text1">Products</div>
+                <div id="text2">Customers</div>
+                <div id="text3">Pricing</div>
+                <div id="text4">Resources</div>
+            </div>
+            <div class="btns">
+                <div id="btn1">Sign in</div>
+                <div id="btn2">Sign up</div>
+            </div>
+        </div>
+        <div class="fake"></div>
+        <div class="page1">
+            <div class="section">
+                <div id="left">
+                    <h1>Design confidently.</h1>
+                    <p>UsabilityHub is a remote user research platform that takes guesswork out of design decision by validating them with real users. </p>
+                    <div id="leftbtn">
+                        <button>Get started</button>
+                    </div>
+                </div>
+                <div id="right">
+                    <img src="https://static.vecteezy.com/system/resources/previews/005/611/703/original/office-workers-celebrating-project-success-successful-teamwork-flat-style-cartoon-illustration-free-vector.jpg" alt="">
+                </div>
+            </div>
+            <div id="btm1">The world's best compaines rely on UsabilityHub to make better designs decisions.</div>
+        </div>
+        <div class="page2"></div>
+
+    </div>
+    
+</body>
+</html>
